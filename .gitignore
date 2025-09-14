@@ -1,0 +1,27 @@
+# .NET / VS
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+
+# VS Code / Rider
+.vscode/
+.idea/
+
+# testy
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# system / inne
+*.log
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Twoje paczki do oddania
+PAB_LAB_*.zip

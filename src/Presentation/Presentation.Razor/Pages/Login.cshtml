@@ -1,0 +1,10 @@
+@page
+@model LoginModel
+<h3>Logowanie</h3>
+<form method="post">
+  <label>Login <input asp-for="UserName"/></label>
+  <label>Hasło <input asp-for="Password" type="password"/></label>
+  <button type="submit">Zaloguj</button>
+</form>
+@if (!string.IsNullOrEmpty(Model.Message))
+{ <p>@Model.Message</p> }
